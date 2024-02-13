@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = new mysqli("localhost", "root", "", "login", "3310");
+$conn = new mysqli("localhost", "root", "", "login");
 $conn->set_charset("utf8");
 
 if (!empty($_POST["btningresar"])) {

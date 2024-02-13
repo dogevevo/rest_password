@@ -19,21 +19,10 @@
 
 <?php include('../controlador.php') ?>
 <?php include('../dash/header.php') ?>
-<div class="container-fluid">
-    <!-- Page Heading -->
-    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Bienvenido
-            <?php echo $_SESSION['nombre'] . "  " . $_SESSION['apellido']; ?>
-        </h1>
-        <br>
-        <div class="box">
-            hello word
 
-        </div>
-    </div>
     <!-- Content Row -->
 
-    <h1 style="aling-items: center;">Subir Fotos</h1>
+    <h1 style="aling-items: center;">Upload pictures</h1>
   
     <style>
         body {
@@ -86,11 +75,12 @@
     </style>
 </head>
 <body>
-    <h1>Subir Imágenes con Vista Previa</h1>
-    <form action="../upload.php" method="post" enctype="multipart/form-data" id="upload-form">
+    <h1>The uploaded images will be displayed in the gallery after adding them.</h1>
+    <form action="upload.php" method="post" enctype="multipart/form-data" id="upload-form">
+        
         <input type="file" id="imagenes" name="imagenes[]" multiple accept="image/*">
         <div id="preview-container"></div>
-        <button type="submit">Subir imágenes</button>
+        <button type="submit">Upload pictures</button>
     </form>
 
     <script>

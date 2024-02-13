@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["imagenes"])) {
     // Carpeta donde se guardarán las imágenes
-    $carpeta_destino = "../img/gallery/gall/";
+    $carpeta_destino = "../img/gallery/galleris/";
 
     // Obtener el último número en el nombre de archivo
     $archivos = glob($carpeta_destino . "*");
@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["imagenes"])) {
     }
 
     echo "Imágenes subidas exitosamente.";
-    header("location: dash/cabecera.php");
+    header("location: cabecera.php");
 } else {
     echo "Por favor, selecciona al menos una imagen para subir.";
 }
