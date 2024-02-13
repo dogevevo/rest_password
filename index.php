@@ -1,16 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forgot Password</title>
-</head>
-<body>
-    <h2>Forgot Password</h2>
-    <form action="reset_password.php" method="post">
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-        <input type="submit" value="Submit">
-    </form>
-</body>
-</html>
+<?php include('php/secction/header.php') ?>
+<?php include('php/secction/slider.php') ?>
+<?php include('php/secction/seccion-about.php')?>
+<?php include('php/secction/seccion-about1.php') ?>
+<?php include('php/secction/seccion-services.php') ?>
+<?php include('php/secction/seccion-gallery.php') ?>
+<?php include('php/secction/seccion-counter.php') ?>
+<?php include('php/secction/seccion-services2.php') ?>
+<?php include('php/secction/slider-partner.php') ?>
+
+<br>
+<?php include('php/secction/footer.php') ?>
