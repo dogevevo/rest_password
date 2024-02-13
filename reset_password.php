@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $conn->query($sql);
 
         // Enviar correo electrónico al usuario con el enlace de restablecimiento de contraseña
-        $reset_link = "https://antoniospaintingny.com/new_pass.php?token=$token";
+        $reset_link = "https://heshma-air.com/new_pass.php?token=$token";
         $to = $email;
         $subject = "Reset Your Password";
         $message = "To reset your password, please click the link below:\n\n$reset_link";
