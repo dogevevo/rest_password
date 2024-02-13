@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <link rel="shortcut icon" href="../favicon_r.png" type="image/png">
     <title>Antonio's Painting Dashboard</title>
 
     <!-- Custom fonts for this template-->

@@ -120,7 +120,7 @@
                             </div>
                             <div class="bottons-r">
                                 <a class="R-forfotPassword" href="passwordreset.php">Forgot Password ?</a>
-                                <a class="R-forfotPassword" href="singup.php">Sing Up ?</a>
+                                <!--a class="R-forfotPassword" href="singup.php">Sing Up ?</a-->
                             </div>
                             <div class="col-md-12 alert-notification">
                                 <div id="message" class="alert-msg"></div>
