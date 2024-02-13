@@ -30,6 +30,8 @@
 	$Schedule="Monday to Sunday : 24 / 7";	
 	$Cover="";
 
+	$instagram = "https://www.tiktok.com/@segundosegarra8?_t=8jpaYtNPTIM&_r=1";
+	$tiktok = "https://www.tiktok.com/@segundosegarra8?_t=8jpaYtNPTIM&_r=1";
 	$Facebook="https://www.facebook.com/Jazminnn100";
 	$GoogleMap='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24151.394181375796!2d-73.7063234414254!3d40.82962699052374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c288cbac59ef47%3A0x369706fa72f96d0c!2sPort%20Washington%2C%20Nueva%20York%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sni!4v1687533403095!5m2!1ses-419!2sni" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
 	$Map_url="https://goo.gl/maps/BXwSpf9MUeDkKLJRA";

@@ -4,11 +4,12 @@
 
 	<div class="social_icons_news">
 
-        <a href="<?php echo $Facebook?>" target="_blank"><img src="img/icons/facebook.png"  alt="facebook"></a>
+        <!-- <a href="<?php echo $Facebook?>" target="_blank"><img src="img/icons/facebook.png"  alt="facebook"></a> -->
 
 		<!-- <a href="https://www.youtube.com/"><img src="img/icons/youtube.png" alt="youtube"></a> -->
 		<a href="<?php echo $Map_url?>" target="_blank"><img src="img/icons/google-maps.png" alt="linkedin"></a>
-		<!-- <a href="https://www.instagram.com/"><img src="img/icons/instagram.png" alt="instagram"></a> -->
+		<a href="<?php echo $instagram?>"><img src="img/icons/instagram.png" alt="instagram"></a>
+        <a href="<?php echo $tiktok?>"> <img src="img/icons/tik-tok.png" alt="tik-tok"></a>
 		<a href="https://www.google.com/maps/place/Antonios+Painting/@40.847001,-73.6948234,15z/data=!4m6!3m5!1s0x89c28f8e7dc3cd83:0x6aace6595f542d8a!8m2!3d40.847001!4d-73.6948234!16s%2Fg%2F11rxpv6g33?entry=ttu" target="_blank"><img src="img/icons/business.png" alt="business"></a>
 	</div>
 
@@ -27,7 +28,7 @@
 
 .social_icons_news{
 			/*las imágenes usadas tienen width de 48px*/
-			width:48px;
+			width:40px;
 			position:fixed;
 			top:50px;
 			left: 0;
@@ -40,7 +41,7 @@
 			top:67%;
 			height:205px;
 			/*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
-			margin-top:50px;
+			margin-top:120px;
 			z-index: 2;
 }
 </style>
