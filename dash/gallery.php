@@ -60,7 +60,7 @@
     }
 </style>
 
-<?php include('../controlador.php') ?>
+
 <?php include('../dash/header.php') ?>
 
 <div class="gallery-area default-padding">
